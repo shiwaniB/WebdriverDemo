@@ -1,0 +1,54 @@
+{
+  "name": "demo-code",
+  "version": "1.1.0",
+  "description": "WebdriverIO plugin to handle shadow roots and DOMs",
+  "main": "lib/index.js",
+  "keywords": [
+    "webdriver",
+    "shadow",
+    "root",
+    "dom",
+    "webcomponents",
+    "webcomponentsjs",
+    "polymer"
+  ],
+  "scripts": {
+    "test:local": "wdio ./test/wdio/wdio.local.conf.js"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.9.0",
+    "debug": "^2.2.0",
+    "fs-extra": "^3.0.1",
+    "gm": "^1.22.0",
+    "image-size": "^0.5.0",
+    "jimp": "^0.2.24",
+    "lodash": "^4.16.1",
+    "uuid": "^3.0.0",
+    "which": "^1.2.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-lodash": "^3.2.9",
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.9.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "gh-pages": "^0.11.0",
+    "glob": "^7.1.0",
+    "http-server": "^0.11.1",
+    "mocha": "^2.4.5",
+    "node-resemble-js": "0.0.5",
+    "np": "^2.9.0",
+    "rimraf": "^2.5.2",
+    "sinon": "^1.17.6",
+    "wdio-iedriver-service": "^0.1.0",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-webcomponents": "^1.1.0",
+    "webdriverio": "^4.14.1"
+  },
+  "license": "MIT"
+}
